@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 host = "smtp.gmail.com"
 port = 587
 usuario = "EmaildeExemplo@gmail.com"
-senha = "sonea123"
+senha = "senha"
 
 def enviar(contato, name, nota):
     server = smtplib.SMTP(host,port)#entrar no servidor do gmail
