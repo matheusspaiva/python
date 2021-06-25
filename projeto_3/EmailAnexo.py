@@ -27,7 +27,7 @@ def criarImagem(nome, diretor, professor):
 host = "smtp.gmail.com"
 port = 587
 usuario = "EmaildeExemplo@gmail.com"
-senha = "sonea123"
+senha = "senha"
 
 def enviarEmail(email, nome,diretor, professor):
     criarImagem(nome, diretor, professor)
